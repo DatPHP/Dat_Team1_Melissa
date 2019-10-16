@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Team1_Article::css/custom_test.css" />
+        <script src="Team1_Article::js/custom_test.js"/>
+             <css src="Team1_Article::css/slick-theme.css" />
+                  <css src="Team1_Article::css/slick.css" />
+        <script type="text/javascript" src="http://dat.com/pub/static/1.0.0/_requirejs/frontend/SM/melissa/en_US/requirejs-config.js"></script>
+    
+    </head>
+
+    <body>
+        <referenceContainer name="content">
+            <block class="Team1\Article\Block\Test" name="test_list" template="Team1_Article::test.phtml">
+            </block>
+        </referenceContainer>
+    </body>
+</page>

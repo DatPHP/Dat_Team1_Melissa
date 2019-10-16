@@ -1,0 +1,59 @@
+<div class = "slider-item">
+
+ <div> <img src="<?=$block->getData('photo1')?>"/>  </div>
+
+</div>
+
+<!-- 
+<div class="myslider">
+<div class="slider-item">1</div>
+<div class="slider-item">2</div>
+<div class="slider-item">3</div>
+<div class="slider-item">4</div>
+</div> -->
+
+
+
+
+<script>
+    require([
+        'jquery',
+        'slick'
+    ], function ($) {
+        jQuery(document).ready(function () {
+            jQuery(".myslider").slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: false,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true,
+                responsive: [
+                    {
+                        breakpoint: 1280,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+    });
+</script>

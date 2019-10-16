@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+    <page
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        layout="admin-1column"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Team1_Article::css/slick.css"/>
+        <css src="Team1_Article::css/slick-theme.css"/>
+        <css src="Team1_Article::css/customcss.css"/>
+    </head>
+    <body>
+<!--        <referenceContainer name="before.body.end">-->
+<!--            <block class="Magento\Framework\View\Element\Template" name="banner.block" template="Team4_Home::temp/footer-script.phtml" />-->
+<!--        </referenceContainer>-->
+    </body>
+</page>
