@@ -21,8 +21,6 @@
         <label>Dat Widget</label>
         <description></description>
         <parameters>
-
-
               <parameter name="photo1" xsi:type="block" required="true" visible="true" sort_order="10">
               <label translate="true">Background image</label>
               <block class="Team1\Article\Block\Adminhtml\Widget\ImageChooser">
@@ -52,10 +50,6 @@
         <description></description>
         <parameters>
 
-         <parameter name="url1" sort_order="10" visible="true" xsi:type="text">
-                <label>Url 1</label>
-            </parameter>
-
             <parameter name="hinh1" xsi:type="block" visible="true" sort_order="10">
                 <label translate="true">Photo 1 </label>
                 <description translate="true">Contact photo</description>
@@ -66,10 +60,6 @@
                         </item>
                     </data>
                 </block>
-            </parameter>
-
-              <parameter name="url2" sort_order="10" visible="true" xsi:type="text">
-                <label>Url 2</label>
             </parameter>
 
             <parameter name="hinh2" xsi:type="block" visible="true" sort_order="10">
@@ -84,10 +74,6 @@
                 </block>
             </parameter>
 
-              <parameter name="url3" sort_order="10" visible="true" xsi:type="text">
-                <label>Url 3</label>
-            </parameter>
-
             <parameter name="hinh3" xsi:type="block" visible="true" sort_order="10">
                 <label translate="true">Photo 3 </label>
                 <description translate="true">Contact photo</description>
@@ -99,6 +85,45 @@
                     </data>
                 </block>
             </parameter>
+        </parameters>
+
+    </widget>
+
+
+
+
+
+    <widget class="Team1\Article\Block\Widget\Banner2" id="Team1_article_banner2">
+        <label>Banner 2</label>
+
+        <description></description>
+        <parameters>
+
+            <parameter name="hinh1" xsi:type="block" visible="true" sort_order="10">
+                <label translate="true">Photo 1 </label>
+                <description translate="true">Contact photo</description>
+                <block class="Team1\Article\Block\Adminhtml\Widget\ImageChooser">
+                    <data>
+                        <item name="button" xsi:type="array">
+                            <item name="open" xsi:type="string">Choose Image...</item>
+                        </item>
+                    </data>
+                </block>
+            </parameter>
+
+            <parameter name="hinh2" xsi:type="block" visible="true" sort_order="10">
+                <label translate="true">Photo 2 </label>
+                <description translate="true">Contact photo</description>
+                <block class="Team1\Article\Block\Adminhtml\Widget\ImageChooser">
+                    <data>
+                        <item name="button" xsi:type="array">
+                            <item name="open" xsi:type="string">Choose Image...</item>
+                        </item>
+                    </data>
+                </block>
+            </parameter>
+
+           
         </parameters>
 
     </widget>

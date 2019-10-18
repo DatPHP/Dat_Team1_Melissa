@@ -1,13 +1,9 @@
-<div class = "container">
+<div class = "container sub-banner" >
 
 <div class = "Block 1" style="float: left">
 
-    <img src="<?=$block->getData('hinh2')?>" style="width: 400px;height: 300px"/>
+    <img src="<?=$block->getData('hinh1')?>" style="width: 400px;height: 300px"/>
 
-</div>
-<div class = "Block 1" style = "float: left">
-
-    <img src="<?=$block->getData('hinh3')?>" style="width: 400px;height: 300px"/>
 </div>
 
 <div class = "Block 1" style ="float:left">
@@ -22,8 +18,12 @@
     {
         padding: 5px;
     }
+    
+    .container.sub-banner {
+        display: flex;
+        justify-content: center;
+    }
 </style>
-
 
 
 
