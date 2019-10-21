@@ -1,21 +1,40 @@
-<div class = "sub_banner_3">
+<div class = " sub-banner03" >
 
-        <div class = "Block 1" style="float: left">
+<div class = "Block01" style="float: left">
 
-            <img src="<?=$block->getData('hinh2')?>" style="width: 400px;height: 300px"/>
-
-        </div>
-        <div class = "Block 1" style = "float: left">
-
-            <img src="<?=$block->getData('hinh3')?>" style="width: 400px;height: 300px"/>
-        </div>
-
-        <div class = "Block 1" style ="float:left">
-            <img src="<?=$block->getData('hinh1')?>" style="width: 400px;height: 300px"/>
-
-        </div>
+    <a href="<?=$block->getData('link01')?>">  <img src="<?=$block->getData('hinh1')?>" style="width: 400px;height: 250px"/></a>
 
 </div>
+
+<div class = "Block01" style ="float:left">
+    <a href = "<?=$block->getData('link02')?>">  <img src="<?=$block->getData('hinh2')?>" style="width: 400px;height: 250px"/> </a>
+
+</div>
+
+<div class = "Block01" style ="float:left">
+    <a href = "<?=$block->getData('link03')?>">  <img src="<?=$block->getData('hinh3')?>" style="width: 400px;height: 250px"/> </a>
+
+</div>
+
+</div>
+
+<style>
+.Block
+{
+    padding: 5px;
+}
+
+.sub-banner03 {
+    display: flex;
+    justify-content: space-around;
+
+}
+</style>
+
+
+
+
+
 
 
 

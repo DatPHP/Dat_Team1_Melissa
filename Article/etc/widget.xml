@@ -49,6 +49,8 @@
 
         <description></description>
         <parameters>
+                <parameter name="link01" sort_order="10" visible="true" xsi:type="text">
+                <label>Link 1</label> </parameter>
 
             <parameter name="hinh1" xsi:type="block" visible="true" sort_order="10">
                 <label translate="true">Photo 1 </label>
@@ -62,6 +64,9 @@
                 </block>
             </parameter>
 
+                      <parameter name="link02" sort_order="10" visible="true" xsi:type="text">
+                      <label>Link 2</label> </parameter>
+
             <parameter name="hinh2" xsi:type="block" visible="true" sort_order="10">
                 <label translate="true">Photo 2 </label>
                 <description translate="true">Contact photo</description>
@@ -73,6 +78,8 @@
                     </data>
                 </block>
             </parameter>
+                          <parameter name="link03" sort_order="10" visible="true" xsi:type="text">
+                          <label>Link 3</label> </parameter>
 
             <parameter name="hinh3" xsi:type="block" visible="true" sort_order="10">
                 <label translate="true">Photo 3 </label>
@@ -209,12 +216,5 @@
         </parameters>
 
     </widget>
-
-
-
-
-
-
-
 
 </widgets>
