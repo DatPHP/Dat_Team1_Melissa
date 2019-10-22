@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Team1_Banner::css/custom_test.css" />
+        <script src="Team1_Banner::js/custom_test.js"/>
+             <css src="Team1_Banner::css/slick-theme.css" />
+                  <css src="Team1_Banner::css/slick.css" />
+     
+    
+    </head>
+
+    <body>
+        <referenceContainer name="content">
+            <block class="Team1\Banner\Block\Test" name="test_list" template="Team1_Banner::test.phtml">
+            </block>
+        </referenceContainer>
+    </body>
+</page>

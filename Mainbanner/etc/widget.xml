@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Magento/Widget/etc/widget.xsd">
+    <widget id="team1_mainbanner" class="Team1\Mainbanner\Block\Widget\Mainbanner">
+        <label translate="true">Main Banner</label>
+        <description>Team1 Main Banner </description>
+        <parameters>
+         <parameter name="mainbanner" xsi:type="block" visible="true" sort_order="10">
+                <label translate="true">Banner </label>
+                <description translate="true">Contact photo</description>
+                <block class="Team1\Mainbanner\Block\Adminhtml\Widget\ImageChooser">
+                    <data>
+                        <item name="button" xsi:type="array">
+                            <item name="open" xsi:type="string">Choose Image...</item>
+                        </item>
+                    </data>
+                </block>
+            </parameter>
+           
+        </parameters>
+    </widget>
+</widgets>

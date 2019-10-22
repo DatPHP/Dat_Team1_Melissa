@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:hellomagento:Magento_Widget:etc/widget.xsd">
+    <widget class="Team1\ProductSlider\Block\Widget\ProductSlider" id="team1_productslider">
+        <label>Product Slider</label>
+        <description>Product Slider</description>
+        <parameters>
+
+            <parameter name="maxproductslider" sort_order="0" visible="true" xsi:type="text">
+                <label>Max products product slider</label>
+                <value>12</value>
+            </parameter>
+            <parameter name="numberproductperlick" sort_order="0" visible="true" xsi:type="text">
+                <label>Number of products per lick</label>
+                <value>4</value>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>

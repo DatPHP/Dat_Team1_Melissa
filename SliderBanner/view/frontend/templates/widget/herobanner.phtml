@@ -1,0 +1,61 @@
+<?php
+echo $block->getData('title')
+?>
+
+<div class="myslider">
+<div><img src="<?= $block->getData('background1') ?>" alt="" width="300" height="500"/></div>
+</div>
+<script>
+require([
+'jquery',
+'slick'
+], function ($) {
+jQuery(document).ready(function () {
+jQuery(".myslider").not('.slick-initialized').slick({
+autoplay: true,
+autoplaySpeed: 2000,
+dots: false,
+infinite: true,
+speed: 300,
+slidesToShow: 1,
+slidesToScroll: 1,
+arrows: false,
+// responsive: [
+// {
+// breakpoint: 1280,
+// settings: {
+// slidesToShow: 1,
+// slidesToScroll: 1
+// }
+// },
+// {
+// breakpoint: 768,
+// settings: {
+// slidesToShow: 1,
+// slidesToScroll: 1
+// }
+// },
+// {
+// breakpoint: 600,
+// settings: {
+// slidesToShow: 1,
+// slidesToScroll: 1
+// }
+// }
+// ]
+});
+});
+});
+</script>
+<style>
+.slick-slide img {
+height: 470px !important;
+width: 100% !important;
+}
+
+.myslider {
+margin-bottom: 10px;
+}
+
+
+</style>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+ <widget class="Team1\SliderBanner\Block\Widget\HeroBanner" id="team1_sliderbanner_herobanner">
+ <label>Hero Banner</label>
+    <description></description>
+    <parameters>
+         <parameter name="title" sort_order="10" visible="true" xsi:type="text">
+           <label>Title</label>
+        </parameter>
+      <parameter name="background1" xsi:type="block" required="true" visible="true" sort_order="10">
+        <label translate="true">Background image</label>
+         <block class="Team1\Banner\Block\Adminhtml\Widget\ImageChooser">
+            <data>
+              <item name="button" xsi:type="array">
+              <item name="open" xsi:type="string">Choose Image...</item>
+            </item>
+            </data>
+          </block>
+       </parameter>
+                                
+    </parameters>
+</widget>
+</widgets>

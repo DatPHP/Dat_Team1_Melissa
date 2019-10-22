@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+
+    <widget  class="Team1\AdvanceInformation\Block\Widget\Advance" id="team1_advanceinformation_advance">
+        <label>Information Advance before Sub banner </label>
+
+        <description></description>
+        <parameters>
+
+        <parameter name="notice1" sort_order="10" visible="true" xsi:type="text">
+                <label>Information 1</label>
+            </parameter>
+      
+
+            <parameter name="hinh1" xsi:type="block" visible="true" sort_order="10">
+                <label translate="true">Photo 1 </label>
+                <description translate="true">Contact photo</description>
+                <block class="Team1\Banner\Block\Adminhtml\Widget\ImageChooser">
+                    <data>
+                        <item name="button" xsi:type="array">
+                            <item name="open" xsi:type="string">Choose Image...</item>
+                        </item>
+                    </data>
+                </block>
+            </parameter>
+
+             <parameter name="notice2" sort_order="10" visible="true" xsi:type="text">
+                <label>Information 2</label>
+            </parameter>
+         
+
+            <parameter name="hinh2" xsi:type="block" visible="true" sort_order="10">
+                <label translate="true">Photo 2 </label>
+                <description translate="true">Contact photo</description>
+                <block class="Team1\Banner\Block\Adminhtml\Widget\ImageChooser">
+                    <data>
+                        <item name="button" xsi:type="array">
+                            <item name="open" xsi:type="string">Choose Image...</item>
+                        </item>
+                    </data>
+                </block>
+            </parameter>
+
+
+             <parameter name="notice3" sort_order="10" visible="true" xsi:type="text">
+                <label>Information 3</label>
+            </parameter>
+     
+
+            <parameter name="hinh3" xsi:type="block" visible="true" sort_order="10">
+                <label translate="true">Photo 3 </label>
+                <description translate="true">Contact photo</description>
+                <block class="Team1\Banner\Block\Adminhtml\Widget\ImageChooser">
+                    <data>
+                        <item name="button" xsi:type="array">
+                            <item name="open" xsi:type="string">Choose Image...</item>
+                        </item>
+                    </data>
+                </block>
+            </parameter>
+
+         
+                         
+
+        </parameters>
+
+    </widget>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</widgets>
